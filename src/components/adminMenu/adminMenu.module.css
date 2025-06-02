@@ -1,0 +1,6 @@
+.menuOption{
+    color:var(--blue-primary);
+    text-align: center;
+    text-decoration: none;
+    padding:1rem;
+}

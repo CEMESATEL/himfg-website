@@ -1,0 +1,31 @@
+.card{
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
+.card figure{
+    background: var(--white-secondary);
+    display:flex;
+    height:200px;
+    justify-content: center;
+    width:100%;
+}
+.card img{
+    height:100%;
+    object-fit: contain;
+    width:100%;
+}
+.card svg{
+    color: var(--black-secondary);
+    height: 100%;
+    width:40%;
+}
+.cardTitles{
+    color:var(--black-secondary);
+    display:flex;
+    flex-direction: column;
+    gap:0.5rem;
+    padding: 0.5rem;
+    text-align: center;
+}

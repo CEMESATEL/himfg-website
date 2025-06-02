@@ -1,0 +1,24 @@
+.fileWrapper{
+    display:flex;
+    flex-direction: column;
+    gap:1.5rem;
+    padding:1rem;
+    width:100%;
+}
+.fileList{
+    display:flex;
+    flex-direction: column;
+    gap:0.5rem;
+    list-style: none;
+}
+.fileList a{
+    color:var(--blue-primary);
+    text-decoration: none;
+}
+.fileList a:hover{
+    text-decoration: underline;
+    transition: all 300ms ease;
+}
+.fileTitle{
+    font-size:1.3rem;
+}

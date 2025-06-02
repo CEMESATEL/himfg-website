@@ -1,0 +1,57 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background: url('https://archivos.him.edu.mx/graficos/fondo-body.webp') no-repeat;
+  background-size: cover;
+  background-position: top;
+  color:var(--black-primary);
+  font-size: 1.1rem;
+  transition:all 300ms ease;
+}
+/*UI colors*/
+:root{
+  --red-primary:#9e1f47;
+  --black-primary:#1b1b1b;
+  --black-secondary:#515151;
+  --white-primary:#f4f4f4;
+  --white-secondary:#e2e2e2;
+  --green-primary:#0c231e;
+  --green-secondary:#13322b;
+  --blue-primary:#165198;
+  --blue-secondary:#35A1C6;
+  --golden-primary:#dac5a0;
+  --banner-responsive:#0000003f;
+}
+/*UI flex-container*/
+.flexContainer{
+  margin: 0 auto;
+  width:95%;
+}
+/*UI box-shadow*/
+.boxShadow{
+  box-shadow:1px 2px 10px #0002;
+}
+@media(min-width:240px) and (max-width:900px){
+  .flexContainer{
+    width:95%;
+  }
+  body{
+    background: var(--white-secondary);
+  }
+  /*body{
+    font-size:1rem;
+  }*/
+}
+
+/*
+@media (min-width:1800px) and (max-width:2900px){
+  body{
+    font-size:1.2rem;
+  }
+}*/

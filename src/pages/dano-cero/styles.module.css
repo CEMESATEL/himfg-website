@@ -1,0 +1,11 @@
+.videosWrapper{
+    display:grid;
+    gap:1rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width:240px) and (max-width:900px){
+    .videosWrapper{
+        grid-template-columns: 1fr;
+    }
+}

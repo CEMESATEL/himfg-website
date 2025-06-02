@@ -1,0 +1,41 @@
+.expecialidadesWrapper{
+    display:flex;
+    gap:1rem;
+    justify-content: center;
+    margin: 0 auto;
+    width:60%;
+}
+.especialidadesGrid{
+    display: grid;
+    gap:1rem;
+    grid-template-columns: repeat(2,1fr);
+    width:100%;
+}
+.especialidadesGrid li{
+    align-items: center;
+    background: url('https://himfg.edu.mx/archivos/graficos/especialidades/fondo-listado.png') no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 30px;
+    color:var(--white-primary);
+    display:flex;
+    justify-content: center;
+    list-style: none;
+    padding:3rem;
+    text-align: center;
+    width:100%;
+}
+.especialidadesGrid a {
+    color:var(--white-primary);
+}
+@media(min-width:240px) and (max-width:900px){
+    .especialidadesGrid{
+        grid-template-columns: 1fr;
+    }
+    .especialidadesGrid li{
+        background-position: top;
+        background-size: cover;
+        padding:1.5rem;
+        height:auto;
+    }
+}

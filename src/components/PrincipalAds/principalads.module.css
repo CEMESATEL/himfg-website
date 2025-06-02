@@ -1,0 +1,103 @@
+.principalAdsWrapper{
+    display: grid;
+    gap:0.5rem;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0 auto;
+    width:70%;
+}
+.especialidadWrapper{
+    background:
+    url('https://himfg.edu.mx/archivos.himfg.edu.mx/graficos/home/especialidades.webp')
+    no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:400px;
+    text-decoration: none;
+    width:100%;
+}
+.requisitosWrapper{
+    background:
+    url('https://himfg.edu.mx/archivos.himfg.edu.mx/graficos/home/requisitos.webp')
+    no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:400px;
+    text-decoration: none;
+    width:100%;
+}
+.historiaWrapper{
+    background:
+    url('https://himfg.edu.mx/archivos.himfg.edu.mx/graficos/home/el-instituto-1.webp')
+    no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:400px;
+    text-decoration: none;
+    width:100%;
+}
+.voluntariadoWrapper{
+    background:
+    url('https://himfg.edu.mx/archivos.himfg.edu.mx/graficos/home/voluntariado.webp')
+    no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:400px;
+    text-decoration: none;
+    width:100%;
+}
+.patronatoWrapper{
+    background:
+    url('https://himfg.edu.mx/archivos.himfg.edu.mx/graficos/home/patronato.webp')
+    no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:400px;
+    text-decoration: none;
+    width:100%;
+}
+.legadoWrapper{
+    background:
+    url('https://himfg.edu.mx/archivos.himfg.edu.mx/graficos/home/legado-artistico.webp')
+    no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:400px;
+    text-decoration: none;
+    width:100%;
+}
+.ofertaWrapper{
+    background:
+    url('https://himfg.edu.mx/archivos.himfg.edu.mx/graficos/home/oferta-academica-1.webp')
+    no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:400px;
+    text-decoration: none;
+    width:100%;
+}
+.adMask{
+    align-items: flex-end;
+    background: rgb(36,0,16);
+    background: linear-gradient(0deg, rgba(36,0,16,1) 0%, rgba(121, 9, 41, 0.647) 43%, rgba(255,0,0,0.08865553057160369) 100%); 
+    display: flex;
+    height:100%;
+    justify-content: flex-end;
+    padding:2rem;
+    width:100%;
+}
+.adTitle{
+    color:var(--white-primary);
+    font-size:3rem;
+    text-align: end;
+}
+@media (min-width:240px) and (max-width:900px){
+    .adTitle{
+        color:var(--white-primary);
+        font-size:1.5rem;
+        text-align: end;
+    }
+    .principalAdsWrapper{
+        grid-template-columns: 1fr;
+        width:100%;
+    }
+}

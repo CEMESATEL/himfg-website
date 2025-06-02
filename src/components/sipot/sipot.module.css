@@ -1,0 +1,11 @@
+.sipotContainer{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    margin-top:5rem;
+}
+@media (min-width:240px) and (max-width:880px){
+    .sipotContainer{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,67 @@
+.profileContainer{
+    align-items: center;
+    border-radius:10px;
+    display:flex;
+    flex-direction: column;
+    gap:1.5rem;
+    justify-content: center;
+    padding:1rem;
+}
+.profileContainer svg{
+    color:#c6c6c6;
+    font-size:6rem;
+    text-align: center;
+}
+.profileItems{
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+    width:100%;
+}
+.profileItems button{
+    background: none;
+    cursor:pointer;
+    padding:0.5rem;
+}
+.openEditProfile{
+    border: 1px solid var(--blue-primary);
+    border-radius:6px;
+    color:var(--blue-primary);
+}
+.openEditProfile:hover{
+    background: var(--blue-primary);
+    color:var(--white-primary);
+    transition:all 300ms ease;
+}
+.closeEditProfile{
+    border: 1px solid var(--red-primary);
+    border-radius:6px;
+    color:var(--red-primary);
+}
+.closeEditProfile:hover{
+    background: var(--red-primary);
+    color:var(--white-primary);
+    transition:all 300ms ease;
+}
+.editProfileButton{
+    border: 1px solid var(--green-primary);
+    border-radius:6px;
+    color:var(--green-primary);
+}
+.editProfileButton:hover{
+    background: var(--green-primary);
+    color:var(--white-primary);
+    transition:all 300ms ease;
+}
+.profiileItem{
+    color:var(--blue-primary);
+}
+.editProfileForm{
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.editProfileForm input{
+    padding:0.5rem;
+}

@@ -1,0 +1,15 @@
+.formTest{
+    border:1px solid var(--blue-secondary);
+    display:flex;
+    flex-direction: column;
+    gap:3rem;
+    margin-bottom:4rem;
+    padding:1rem;
+}
+.questionName{
+    color:var(--blue-secondary);
+    font-size:1.5rem;
+}
+.questionOptions{
+    background: #fff;
+}

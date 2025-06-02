@@ -1,0 +1,103 @@
+.menuOptions{
+    display:flex;
+    flex-direction: column;
+    gap:1.5rem;
+}
+.doctors{
+    display:grid;
+    gap:2rem;
+    grid-template-columns: repeat(5, 1fr);
+    width:70%;
+    margin: 0 auto;
+}
+.displayNone{
+    display:none;
+}
+.menuOption{
+    align-items: center;
+    background: url('../../assets/fondo-card.jpg');
+    background-size: cover;
+    background-position:bottom;
+    border:1px solid var(--golden-primary);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.516);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.516);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.516);
+    color:var(--black-secondary);
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1rem;
+    text-decoration: none;
+    width:100%;
+}
+
+.photo{
+    width:100%;
+    height:200px;
+}
+.photo img{
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: top;
+}
+.menuOption:hover{
+    background: var(--white-secondary);
+    transition: all 500ms ease;
+}
+.menuOption svg{
+    color:var(--golden-primary);
+    font-size: 3rem;
+    font-weight: 900;
+}
+.menuOption span{
+    color:var(--red-primary);
+    text-align:center;
+}
+.menuOptionTitle{
+    font-size:1.5rem;
+    font-style: bold;
+}
+.menuOptionIcon{
+    width:6rem;
+    height:6rem;
+}
+.principalContainer{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    width:40%;
+    margin:0 auto;
+}
+.display_none{
+    display:flex;
+}
+
+@media (min-width:240px) and (max-width:1199px){
+    .display_none{
+        display:none;
+    }
+    .principalContainer{
+        width:90%;
+        grid-template-columns: 1fr;
+    }
+    .doctors{
+        grid-template-columns: 1fr;
+        width:90%;
+    }
+}
+@media (min-width:1200px) and (max-width:1800px){
+    .principalContainer{
+        width:90%;
+    }
+    .doctors{
+        grid-template-columns: repeat(3,1fr);
+        width:90%;
+    }
+    .doctors{
+        object-fit: cover;
+    }
+}

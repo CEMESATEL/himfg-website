@@ -1,0 +1,84 @@
+.educativeOfferWrapper{
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.educativeOfferWrapper figure{
+    width:100%;
+    height:50%;
+}
+.educativeOfferWrapper img{
+    height:100%;
+    object-fit: contain;
+    width:100%;
+}
+.adsWrapper{
+    display:flex;
+    gap:1rem;
+    padding-top:2.5rem;
+    width:100%;
+}
+.adsWrapper div{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+.adTitle{
+    align-items: center;
+    background: url('https://archivos.him.edu.mx/graficos/especialidades/fondo-listado.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+    color:#fff;
+    display: flex;
+    font-size: 1.5rem;
+    padding:3rem;
+    text-align: center;
+    width:100%;
+    justify-content: center;
+    text-decoration: none;
+}
+.adTitle span{
+    padding-bottom:1rem;
+}
+.adSubtitle{
+    color:#95a5a6;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.adList{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    list-style:none;
+    padding:1rem;
+}
+.adList li{
+    border-radius: 30px;
+    background: #95a5a6;
+    padding:1rem;
+    width:100%;
+}
+.adList a{
+    text-decoration: none;
+    color:var(--white-primary);
+    font-size: 1.3rem;
+}
+.registerTitle{
+    color:var(--red-primary);
+    font-size: 4rem;
+    padding-bottom:2rem;
+}
+.convocatoriaWrapper{
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+@media (min-width:240px) and (max-width:900px){
+    .adsWrapper{
+        flex-direction: column;
+    }
+    .adTitle{
+        padding:1rem;
+    }
+}

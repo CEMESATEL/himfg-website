@@ -1,0 +1,21 @@
+.privacityWrapper{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+.privacityButton{
+    background: var(--golden-primary);
+    color:var(--white-primary);
+    font-size:2rem;
+    padding:1rem;
+    text-align: center;
+    text-decoration: none;
+    width:50%;
+}
+
+@media(min-width:240px) and (max-width:900px){
+    .privacityButton{
+        font-size: 1.3rem;
+        width:90%;
+    }
+}

@@ -1,0 +1,66 @@
+.iframeVideo{
+    align-items: center;
+    color: var(--black-secondary);
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    justify-content: center;
+    line-height: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    width:100%;
+}
+.iframeVideo iframe{
+    width:100%;
+}
+.videoTitle{
+    color: var(--black-secondary);
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom:4rem;
+    text-align:center;
+}
+.liveVideo{
+    display:flex;
+    height:100%;
+    justify-content: center;
+    margin-bottom:4rem;
+    padding:1rem;
+    width:100%;
+}
+.liveVideoZoom{
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.liveVideo iframe {
+    height:400px;
+    width:100%;
+}
+.coursePayment{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    margin-top:2rem;
+}
+.coursePayment a{
+    color:var(--blue-secondary);
+}
+.testLink{
+    display:flex;
+    gap:1rem;
+    margin-bottom:4rem;
+}
+.testLink a{
+    border:none;
+    background: var(--blue-secondary);
+    color:var(--white-secondary);
+    padding:0.5rem;
+    text-decoration:none;
+}
+@media(min-width:240px) and (max-width: 880px){
+    .liveVideo{
+        flex-direction: column;
+    }
+}

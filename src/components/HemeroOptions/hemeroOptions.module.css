@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.hemeroOptionsGrid{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:1rem;
+}
+.hemeroOption{
+    align-items: center;
+    background: none;
+    border:1px solid var(--red-primary);
+    color:var(--red-primary);
+    cursor:pointer;
+    display:flex;
+    flex-direction: column;
+    gap:0.5rem;
+    padding:1rem;
+    text-decoration: none;
+}
+.hemeroOption svg{
+    font-size: 2.5rem;
+}
+.hemeroList{
+    display:flex;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    gap:1rem;
+    padding:1rem;
+}
+.hemeroList span{
+    color:var(--red-primary);
+    font-size:1.1rem;
+}
+.hemeroList p{
+    text-align: justify;
+}
+.hemeroList figure{
+    width:auto;
+}
+.hemeroListImage{
+    align-items: center;
+    display:flex;
+    gap:1rem;
+    text-decoration: none;
+}
+.hemeroListImage img{
+    width:6rem;
+}
+.fileLink{
+    display:flex;
+    justify-content: center;
+    width:70%;
+    margin:0 auto;
+    padding:4rem 0;
+}
+.fileLink a {
+    background: var(--red-primary);
+    color:var(--white-primary);
+    padding:1rem;
+}

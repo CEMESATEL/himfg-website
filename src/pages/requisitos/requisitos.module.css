@@ -1,0 +1,19 @@
+.requirementsWrapper{
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+    line-height: 3rem;
+    margin: 0 auto;
+    width:50%;
+}
+.requirementsWrapper h2{
+    font-size: 1.2rem;
+}
+.requirementsWrapper ol{
+    padding: 0 2rem;
+}
+@media(min-width:240px) and (max-width:900px){
+    .requirementsWrapper{
+        width:90%;
+    }
+}

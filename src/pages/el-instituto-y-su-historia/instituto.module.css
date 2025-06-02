@@ -1,0 +1,46 @@
+.institutoWrapper{
+    display:grid;
+    gap:1rem;
+    grid-template-columns: 1fr
+}
+.institutoWrapperContent{
+    align-items: center;
+    display:flex;
+    height:100%;
+    
+}
+.institutoWrapperCard{
+    border-radius: 9px;
+    box-shadow:1px 2px 10px #00000056;
+    display:flex;
+    flex-direction: column;
+    padding:1rem;
+}
+.institutoTitles{
+    display:flex;
+    justify-content: space-evenly;
+    padding:2rem 0;
+}
+.institutoTitles span{
+    text-align: center;
+    width:100%;
+}
+.institutoWrapperContent ul{
+    display:flex;
+    flex-direction: column;
+    gap:1.5rem;
+    list-style: none;
+    width: 100%;
+}
+.institutoWrapperImage{
+    align-items: center;
+    color:var(--golden-primary);
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    height:100%;
+    padding:1rem;
+}
+.institutoWrapperImage span{
+    font-size: 1.5rem;
+}

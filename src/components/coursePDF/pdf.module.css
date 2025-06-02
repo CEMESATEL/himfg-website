@@ -1,0 +1,14 @@
+.downloadPdf{
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+}
+.downloadPdf button {
+    background: var(--blue-secondary);
+    border:none;
+    color:var(--white-secondary);
+    cursor:pointer;
+    padding:1rem;
+}

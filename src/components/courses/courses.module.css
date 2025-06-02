@@ -1,0 +1,57 @@
+.coursesWrapper{
+    width:100%;
+}
+.coursesGrid{
+    display:grid;
+    gap:1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+.monthBar{
+    display:grid;
+    gap:0.5rem;
+    grid-template-columns: repeat(4,1fr);
+    list-style: none;
+    margin-bottom: 4rem;
+    width:100%;
+}
+.monthBar li{
+    display:flex;
+    text-align:center;
+    width:100%;
+}
+.monthBar li a:hover{
+    background: #ededed;
+    cursor:pointer;
+    transition: all 300ms ease;
+}
+.monthBar li a{
+    color:#000;
+    text-decoration:none;
+    padding:1rem;
+    width:100%;
+}
+.modalOptions{
+    display:flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    gap:1rem;
+}
+.modalOptions a{
+    background: var(--blue-secondary);
+    color:var(--white-primary);
+    padding:0.5rem;
+    text-decoration: none;
+    width:100%;
+}
+.modalOptions iframe{
+    height:450px;
+    width:100%;
+}
+@media(min-width:240px) and (max-width:900px){
+    .coursesGrid{
+        grid-template-columns:1fr;
+    }
+    .monthBar{
+        grid-template-columns: repeat(3,1fr);
+    }
+}

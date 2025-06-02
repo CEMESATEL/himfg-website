@@ -1,0 +1,40 @@
+.jumbotronWrapper{
+    align-items: center;
+    background: var(--white-secondary);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+    height:100%;
+}
+.jumbotronImage{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+}
+.jumbotronImage img{
+    height:100%;
+    width:100%;
+}
+.jumbotronTitles{
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    gap:1.5rem;
+    justify-content: center;
+    text-align: center;
+}
+.jumbotronTitles h1{
+    color:var(--blue-primary);
+    font-weight: 400;
+}
+.jumbotronTitles span{
+    font-style: italic;
+}
+
+@media(min-width:240px) and (max-width:880px){
+    .jumbotronImage{
+        object-fit: cover;
+    }
+}

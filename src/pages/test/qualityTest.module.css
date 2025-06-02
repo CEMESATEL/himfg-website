@@ -1,0 +1,11 @@
+.qualityTest{
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    margin-top: 4rem;
+    padding:1rem;
+}
+.options{
+    display:flex;
+    gap:1rem;
+}

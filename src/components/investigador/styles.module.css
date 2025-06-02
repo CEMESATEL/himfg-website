@@ -1,0 +1,113 @@
+.investigadorWrapper {
+    background: url('https://himfg.edu.mx/fotos-investigadores/bg-page-banner.jpg');
+    background-size: cover;
+    border-radius:9px;
+    align-items: center;
+    display: flex;
+    justify-content: start;
+    padding: 3rem 0;
+    width:100%;
+}
+
+.investigadorImagen {
+    width: 50%;
+}
+
+.investigadorImagen img {
+    border-radius: 50%;
+    -webkit-box-shadow: 13px -1px 5px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 13px -1px 5px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 13px -1px 5px -3px rgba(0, 0, 0, 0.75);
+    width: 100%;
+}
+
+.investigadorNombre {
+    background: url('https://himfg.edu.mx/fotos-investigadores/bg-nombre.png');
+    background-position-x: right;
+    background-size: cover;
+    color: var(--white-primary);
+    padding:1rem;
+    width: 100%;
+}
+
+.investigadorTitulos {
+    align-items: center;
+    display: flex;
+    gap:1rem;
+}
+
+.investigadorLink {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.investigadorTextos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.investigadorTextos button {
+    border:1px solid var(--white-primary);
+    background: none;
+    color: var(--white-primary);
+    padding:0.5rem;
+}
+
+.curriculumWrapper{
+    align-items: center;
+    background: url('https://himfg.edu.mx/fotos-investigadores/semblanza.webp');
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    font-family:'Montserrat', sans-serif;
+    padding: 6rem 0;
+}
+.sintesisTextos{
+    display:flex;
+    gap:2rem;
+    width:100%;
+}
+.sintesisTextos div{
+    width:100%;
+}
+.sintesisTextos iframe{
+    height:600px;
+    width:100%;
+}
+.sintesisWrapper{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+.sintesisWrapper ul{
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.sintesisWrapper a{
+    color:var(--blue-secondary);
+    text-decoration: none;
+}
+@media (min-width:240px) and (max-width:900px) {
+    .investigadorTitulos {
+        flex-direction: column;
+        gap:1rem;
+    }
+
+    .investigadorNombre {
+        font-size: 1.3rem;
+        padding: 1.5rem;
+    }
+
+    .investigadorLink button {
+        font-size: 1rem;
+        margin: 0;
+    }
+    .sintesisTextos{
+        flex-direction: column;
+    }
+}

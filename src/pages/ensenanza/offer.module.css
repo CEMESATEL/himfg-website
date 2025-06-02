@@ -1,0 +1,207 @@
+.pagePharagraphs{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    line-height: 2.5rem;
+    text-align: justify;
+}
+.pageNavigation{
+    align-items: center;
+    background: var(--white-primary);
+    border:1px solid var(--white-secondary);
+    color:var(--black-secondary);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style:none;
+    padding:2rem 0;
+    position: relative;
+    text-align: center;
+    top:1rem;
+    width:50%;
+    z-index:100;
+}
+.pageNavigation li{
+    border-bottom:1px solid var(--white-secondary);
+    margin: 0 auto;
+    padding:1rem 0;
+    width:80%;
+}
+.pageNavigation a{
+    color:var(--blue-secondary);
+    text-decoration: none;
+}
+.navigationOut{
+    display: none;
+}
+.buttonOptions{
+    align-items: center;
+    box-shadow:1px 2px 20px #00000037;
+    background: none;
+    border:1px solid var(--white-secondary);
+    cursor:pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+    padding:0.5rem;
+}
+.anchor{
+    background:var(--blue-secondary);
+    color:var(--white-primary);
+    font-size:1.2rem;
+    margin-bottom:2rem;
+    padding:1rem;
+    text-decoration: none;
+}
+.pageBanner{
+    background: url('../../assets/educacion-medica-chafa.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100%;
+    width:100%;
+}
+.pageBannerBackground{
+    width:100%;
+    height:100%;
+    background: rgb(152,152,152);
+    background: linear-gradient(90deg, rgba(152,152,152,0) 0%, rgba(255,255,255,0) 38%, rgba(7,46,0,0.999019676229867) 92%);
+    padding: 6rem 0; 
+}
+.pageTitleBanner{
+    text-align: justify;
+    align-items: end;
+    color:var(--white-primary);
+    display:flex;
+    flex-direction: column;
+    gap:1.5rem;
+    justify-content: center;
+    width:30%;
+    height:100%;
+    margin-left:60%;
+    padding:3rem;
+}
+.texts{
+    display:grid;
+    grid-template-columns: 1fr 1.8fr;
+    width:100%;
+    margin: 0 auto;
+}
+.texts div {
+    width:100%;
+}
+.texts figure{
+    margin-top:11rem;
+    width:100%;
+    height:100%;
+}
+.texts img{
+    width:100%;
+    height:100%;
+}
+.text{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem;
+}
+.text p{
+    line-height: 2rem;
+    text-align:end;
+    width:100%;
+}
+.text div{
+    width:100%;
+}
+.textsWrapper{
+    width:100%;
+}
+.menu{
+    width:100%;
+    background: #7f8c8d;
+    display:flex;
+    justify-content:space-between;
+    list-style: none;
+}
+.menu li{
+    text-align:center;
+    width:100%;
+    color:var(--white-primary);
+    padding:1rem 0;
+}
+.menu_mobile{
+    display:none;
+}
+.text_image{
+    width:100%;
+    height: auto;
+}
+.text_image img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+@media (min-width:240px) and (max-width:880px){
+    .pageTitleBanner{
+        width:100%;
+        justify-content: center;
+        margin:0;
+        padding:1rem;
+    }
+    .menu_mobile{
+        align-items: center;
+        width:100%;
+        background: #7f8c8d;
+        display:flex;
+        justify-content:flex-start;
+        padding:0.5rem;
+    }
+    .menu_mobile button{
+        align-items: center;
+        display:flex;
+        justify-content: center;
+        gap:1rem;
+        background:none;
+        border:1px solid var(--white-primary);
+        color: var(--white-primary);
+        padding:0.5rem;
+        width:20%;
+    }
+    .menu{
+        display:none;
+    }
+    .text{
+        padding: 1rem;
+    }
+    .texts{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .text p{
+        width:100%;
+        text-align: justify;
+        line-height: 2rem;
+    }
+    .texts img{
+        padding-bottom:1rem;
+    }
+}
+
+@media (min-width:1200px) and (max-width:1400px){
+    .text{
+        
+        padding: 2rem;
+    }
+    .text p{
+        width:100%;
+        margin: 0 auto;
+        text-align: justify;
+    }
+    .pageTitleBanner{
+        width:50%;
+        margin-left:48%;
+    }
+    .text_image img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+    }
+}

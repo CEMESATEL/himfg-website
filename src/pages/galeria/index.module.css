@@ -1,0 +1,9 @@
+.galleryContainer{
+    margin:0 auto;
+    padding: 6rem 0;
+    width:50%;
+}
+.galleryContainer img{
+    height: 100%;
+    object-fit: contain;
+}
