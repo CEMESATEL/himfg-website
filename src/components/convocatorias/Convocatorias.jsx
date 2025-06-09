@@ -2,7 +2,7 @@ import { FaBook } from "react-icons/fa"
 import styles from '../FileList/filelist.module.css'
 import { FileListModal } from "../FileList/FileListModal"
 
-export const Convocatorias = ()=>{
+export const Convocatorias = () => {
     return (
         <div className={`flexContainer ${styles.fileListGrid}`}>
             <FileListModal
@@ -10,8 +10,16 @@ export const Convocatorias = ()=>{
                 title='Convocatorias'
             >
                 <span>Convocatorias</span>
-                <br/>
+                <br />
                 <ul>
+                    <li>
+                        <a
+                            href='https://himfg.edu.mx/archivos/graficos/investigacion/RESULTADOS-FONDOS-FEDERALES-2026-FINAL-050625.pdf'
+                            target='_blank'
+                        >
+                            RESULTADOS DE LA CONVOCATORIA PARA FINANCIAR PROYECTOS DE INVESTIGACIÓN PARA LA SALUD CON FONDOS FEDERALES 2026 en su 1ra fase.
+                        </a>
+                    </li>
                     <li>
                         <a
                             href='https://himfg.edu.mx/archivos/graficos/investigacion/convocatoria-financiamiento.pdf'
