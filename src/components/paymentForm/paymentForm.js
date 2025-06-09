@@ -52,7 +52,7 @@ export const PaymentForm = () => {
   const getCypherData = async (data) => {
     try {
       const resp = await axios.post(
-        'https://cemesatelcyper-001-site1.qtempurl.com/aes/decrypt',
+        'https://ensewebsite-001-site1.ntempurl.com/aes/decrypt',
         data
       );
       return resp.data;
