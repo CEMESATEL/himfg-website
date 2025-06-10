@@ -9,7 +9,7 @@ export const DataBases = ()=>{
                 className={styles.hemeroListImage}
             >
                 <figure>
-                    <img src='https://archivos.him.edu.mx/graficos/ensenanza/hemerobiblioteca/jaypee.png'/>
+                    <img src='https://d45jl3w9libvn.cloudfront.net/jaypee/static/img/pub/header-jaypee.png'/>
                 </figure>
             </a>
             <a
@@ -18,7 +18,7 @@ export const DataBases = ()=>{
                 className={styles.hemeroListImage}
             >
                 <figure>
-                    <img src='https://archivos.him.edu.mx/graficos/ensenanza/hemerobiblioteca/clinicalkey.jpeg'/>
+                    <img src='https://blobuvap.blogs.uva.es/files/2021/03/ClinicalKey.jpg'/>
                 </figure>
             </a>
             <a
@@ -27,7 +27,7 @@ export const DataBases = ()=>{
                 className={styles.hemeroListImage}
             >
                 <figure>
-                    <img src='https://archivos.him.edu.mx/graficos/ensenanza/hemerobiblioteca/db_wiley.jpeg'/>
+                    <img src='https://onlinelibrary.wiley.com/pb-assets/hub-assets/pericles/logo-header-1690978619437.png'/>
                 </figure>
             </a>
             <a
@@ -36,7 +36,7 @@ export const DataBases = ()=>{
                 className={styles.hemeroListImage}
             >
                 <figure>
-                    <img src='https://archivos.him.edu.mx/graficos/ensenanza/hemerobiblioteca/bd_bm.jpeg'/>
+                    <img src='http://187.141.21.244//images/boletin_elsevier_4.gif'/>
                 </figure>
             </a>
             <a
@@ -45,7 +45,7 @@ export const DataBases = ()=>{
                 className={styles.hemeroListImage}
             >
                 <figure>
-                    <img src='https://archivos.him.edu.mx/graficos/ensenanza/hemerobiblioteca/bd_repos.jpeg'/>
+                    <img src='http://187.141.21.244//images/boletin_elsevier_4.gif'/>
                 </figure>
                 <span>Boletín Médico del Hospital Infantil de México</span>
             </a>

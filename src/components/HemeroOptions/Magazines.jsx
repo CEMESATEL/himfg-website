@@ -19,7 +19,7 @@ export const Magazines = ()=>{
                 className={styles.hemeroListImage}
             >
                 <figure>
-                    <img src='https://onlinelibrary.wiley.com/cms/asset/8bf8890c-a576-4cfc-974e-e11a3ab4a5b7/pde.v41.5.cover.gif'/>
+                    <img src='https://onlinelibrary.wiley.com/cms/asset/2193c24c-85d8-43a6-b05e-10893a2acc2f/pde.v42.3.cover.gif'/>
                 </figure>
                 <span>Pediatric Dermatology</span>
             </a>
@@ -69,7 +69,7 @@ export const Magazines = ()=>{
                 className={styles.hemeroListImage}
             >
                 <figure>
-                    <img src='https://archivos.him.edu.mx/graficos/ensenanza/hemerobiblioteca/jped.png'/>
+                    <img src='https://www.jpeds.com/cms/asset/atypon:cms:attachment:img:d112e6:rev:1747271119513-5864:pii:S0022347625X00044/cover.tif.jpg'/>
                 </figure>
                 <span>The Journal of Pediatrics</span>
             </a>
@@ -89,7 +89,7 @@ export const Magazines = ()=>{
                 className={styles.hemeroListImage}
             >
                 <figure>
-                    <img src='https://archivos.him.edu.mx/graficos/ensenanza/hemerobiblioteca/disease.png'/>
+                    <img src='https://ars.els-cdn.com/content/image/X00115029.jpg'/>
                 </figure>
                 <span>Disease-a-Month</span>
             </a>
@@ -99,7 +99,7 @@ export const Magazines = ()=>{
                 className={styles.hemeroListImage}
             >
                 <figure>
-                    <img src='https://archivos.him.edu.mx/graficos/ensenanza/hemerobiblioteca/pedclin.jpeg'/>
+                    <img src='https://www.pediatric.theclinics.com/cms/asset/8a3a7847-63f7-49fc-99aa-4c5c85756184/cov200h.gif'/>
                 </figure>
                 <span>Pediatric Clinics of North America</span>
             </a>
@@ -119,7 +119,7 @@ export const Magazines = ()=>{
                 className={styles.hemeroListImage}
             >
                 <figure>
-                    <img src='https://archivos.him.edu.mx/graficos/ensenanza/hemerobiblioteca/currentp.png'/>
+                    <img src='https://images.journals.lww.com/co-pediatrics/XLargeThumb.00008480-202506000-00000.CV.jpeg'/>
                 </figure>
                 <span>Current Opinion in Pediatrics </span>
             </a>
@@ -129,7 +129,7 @@ export const Magazines = ()=>{
                 className={styles.hemeroListImage}
             >
                 <figure>
-                    <img src='https://archivos.him.edu.mx/graficos/ensenanza/hemerobiblioteca/bmhim.jpeg'/>
+                    <img src='http://187.141.21.244/images/boletin_elsevier_4.gif'/>
                 </figure>
                 <span>Boletín Médico del Hospital Infantil de México</span>
             </a>
@@ -139,7 +139,7 @@ export const Magazines = ()=>{
                 className={styles.hemeroListImage}
             >
                 <figure>
-                    <img src='https://archivos.him.edu.mx/graficos/ensenanza/hemerobiblioteca/pedrev.png'/>
+                    <img src='https://aap2.silverchair-cdn.com/aap2/content_public/journal/pediatricsinreview/issue/38/10/3/m_pedsinreview_38_10_cover.png?Expires=1752511270&Signature=orBrjvpEj6Am5QL2dqqs3JxcObFfrb8DVqxq6WKrcmlLx-0iG8bVutYKZG7pZKB6VPEWqb8cpdBnHcTwBDRIgUCMKr5XMtkJURxj53Ke6LeAXIVTVf~F-FcSssS5a3MKK3y~1NjiKDJO4fkm-MHNcYRjq5lfXwr6PIJxW81Kj7g2nWKafmYjV0n~c8Kx4ixEdxKyIEyJbkEEuVcwLEB2rz05Pz18vH~CAcJplM5E53rwLMwGKAOBR3-0M2Ikuy3tUREhua0ruR4bgxr1k~uL7exqq0pLnq3KEMOwwIaWl9Ks7cx1l1iHOg2evOkbVc3g6Fi9e4p~rIROTQXGxfWsWg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA'/>
                 </figure>
                 <span>Pediatrics in Review</span>
             </a>
@@ -149,7 +149,7 @@ export const Magazines = ()=>{
                 className={styles.hemeroListImage}
             >
                 <figure>
-                    <img src='https://archivos.him.edu.mx/graficos/ensenanza/hemerobiblioteca/actaped.png'/>
+                    <img src='https://onlinelibrary.wiley.com/cms/asset/1c879fa6-25c7-4e4f-82ee-efbfce1218fe/apa.v114.7.cover.gif'/>
                 </figure>
                 <span>Acta Paediatrica</span>
             </a>
@@ -169,7 +169,7 @@ export const Magazines = ()=>{
                 className={styles.hemeroListImage}
             >
                 <figure>
-                    <img src='https://archivos.him.edu.mx/graficos/ensenanza/hemerobiblioteca/pedinfe.png'/>
+                    <img src='https://images.journals.lww.com/pidj/SmallThumb.00006454-202506000-00000.CV.jpeg'/>
                 </figure>
                 <span>The Pediatric Infectious Disease Journal</span>
             </a>
@@ -179,7 +179,7 @@ export const Magazines = ()=>{
                 className={styles.hemeroListImage}
             >
                 <figure>
-                    <img src='https://archivos.him.edu.mx/graficos/ensenanza/hemerobiblioteca/eurped.png'/>
+                    <img src='https://media.springernature.com/w88/springer-static/cover-hires/journal/431?as=webp'/>
                 </figure>
                 <span> European Journal of Pediatrics</span>
             </a>
@@ -189,7 +189,7 @@ export const Magazines = ()=>{
                 className={styles.hemeroListImage}
             >
                 <figure>
-                    <img src='https://archivos.him.edu.mx/graficos/ensenanza/hemerobiblioteca/pedinter.png'/>
+                    <img src='https://onlinelibrary.wiley.com/cms/asset/f3dbaef7-8d31-43a9-a7ab-0aaaedad2945/ped.v67.1.cover.gif'/>
                 </figure>
                 <span>Pediatrics International</span>
             </a>
@@ -209,7 +209,7 @@ export const Magazines = ()=>{
                 className={styles.hemeroListImage}
             >
                 <figure>
-                    <img src='https://archivos.him.edu.mx/graficos/ensenanza/hemerobiblioteca/ybook.png'/>
+                    <img src='https://secure-ecsd.elsevier.com/covers/80/Tango2/large/9780323480352.jpg'/>
                 </figure>
                 <span>Year Book of Pediatrics</span>
             </a>
