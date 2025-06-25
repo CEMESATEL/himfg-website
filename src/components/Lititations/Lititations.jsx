@@ -26,6 +26,25 @@ export const Lititations = ()=>{
             </FileListModal>
             <FileListModal
                 icon={<FaBook />}
+                title='Invitaciones'
+            >
+                <span>Licitaciones</span>
+                <br/>
+                <ul>
+                    {
+                        <li>
+                            <a
+                                href='https://himfg.edu.mx/descargas/documentos/licitaciones/bases/BasesIV3Puts25.doc'
+                                target='_blank'
+                            >
+                                BASES DE LA INVITACIÓN A CUANDO MENOS TRES PERSONAS ELECTRONICA NACIONAL - MATERIALES Y ÚTILES DE IMPRESIÓN Y REPRODUCCIÓN PARA EL EJERCICIO 2025
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </FileListModal>
+            <FileListModal
+                icon={<FaBook />}
                 title='Informe de Gestión Gubernamental del HIMFG'
             >
                 <span>Informe de Gestión Gubernamental del HIMFG</span>
